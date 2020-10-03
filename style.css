@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.calculator {
+	width: 400px;
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	background: coral;
+	border: 5px solid cornflowerblue;
+}
+.calculator input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.calculator button{
+    width: 25%;
+    padding: 10px;
+    outline: none;
+}
+.calculator button:hover{
+}
+.calculator button:focus{}

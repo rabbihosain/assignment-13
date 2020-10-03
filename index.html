@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator With javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<input type="text" id="display" readonly name="">
+		<button onclick="seven()">7</button>
+		<button onclick="eight()">8</button>
+		<button onclick="nine()">9</button>
+		<button onclick="devide()">/</button>
+		<button onclick="four()">4</button>
+		<button onclick="five()">5</button>
+		<button onclick="six()">6</button>
+		<button onclick="multiple()">*</button>
+		<button onclick="one()">1</button>
+		<button onclick="two()">2</button>
+		<button onclick="three()">3</button>
+		<button onclick="substruction()">-</button>
+		<button onclick="zero()">0</button>
+		<button onclick="cleardata()">C</button>
+		<button onclick="equal()">=</button>
+		<button onclick="addtion()">+</button>
+	</div>
+
+
+	<script>
+		function one() {
+			document.getElementById("display").value += 1
+		};
+		function two() {
+			document.getElementById("display").value += 2
+		};
+		function three() {
+			document.getElementById("display").value += 3
+		};
+		function four() {
+			document.getElementById("display").value += 4
+		};
+		function five() {
+			document.getElementById("display").value += 5
+		};
+		function six() {
+			document.getElementById("display").value += 6
+		};
+		function seven() {
+			document.getElementById("display").value += 7
+		};
+		function eight() {
+			document.getElementById("display").value += 8
+		};
+		function nine() {
+			document.getElementById("display").value += 9
+		};
+		function zero() {
+			document.getElementById("display").value += 0
+		};
+		function cleardata(){
+			document.getElementById("display").value = " "
+		}
+		function addtion() {
+			document.getElementById("display").value += "+"
+		};
+		function substruction() {
+			document.getElementById("display").value += "-"
+		};
+		function multiple() {
+			document.getElementById("display").value += "*"
+		};
+		function devide() {
+			document.getElementById("display").value += "/"
+		};
+		function equal() {
+			document.getElementById("display").value = eval(document.getElementById("display").value)
+		};
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
